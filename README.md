@@ -1,9 +1,5 @@
 # CI-CD-HandsOn
 
-# MLOps-for-Fashion-AI-Models
-
-### CI/CD 
-
 #### 1. Buat `requirements.txt`
 File `requirements.txt` ini akan memastikan semua library yang dibutuhkan terinstal otomatis di lingkungan Docker. Berikut adalah contoh isinya:
 
