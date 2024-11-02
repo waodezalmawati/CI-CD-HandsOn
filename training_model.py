@@ -22,7 +22,7 @@ train_dataset = preprocess(descriptions)
 #Initiate data collator 
 data_collator = DataCollatorForLanguageModeling(tokenizer=tokenizer, mlm=False)
 
-# load model 
+# load model gpt2
 model = GPT2LMHeadModel.from_pretrained("gpt2")
 
 # set up the training arguments
